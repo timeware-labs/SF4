@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+html, body {
+    overflow-x: hidden;
+}
 
 .active{
     color: red;
@@ -165,10 +168,11 @@
     justify-content: center;
     flex-direction: row;
     gap: 2.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .cars .card {
-    min-width: 35rem;
     min-height: 35rem;
     padding: 2rem;
     background-color: white;
