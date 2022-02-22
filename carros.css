@@ -143,13 +143,42 @@ section.data ul li div p {
   font-size: 1.2rem;
 }
 
+.flex-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem 0;
 
+  gap: 9.5rem;
+  
+}
 
+.flex-row p {
+  font-size: .75em;
+}
 
+.checkbox {
+  margin: 0 !important;
+}
 
+.checkbox label {
+  padding-left: 5px !important;
+}
 
+.checkboxes {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
+  row-gap: 2rem;
+}
 
+.checkboxes .checkbox label {
+  font-size: .75em;
+}
 
+.checkbox label {
+  font-size: .75em;
+}
 
 
 
