@@ -1,0 +1,60 @@
+section::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.1;
+  background-image: url('assets/s4f_marca_dagua_cinza.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+section {
+  display: flex !important;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+
+section .maps {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10rem;
+  align-items: center;
+
+  margin-top: 5rem;
+}
+
+section .maps.reverse {
+  flex-direction: row-reverse;
+}
+
+section .maps img {
+  border-radius: 25px;
+  border: 1px solid black;
+  height: 25rem;
+  width: 50%;
+}
+
+section .maps div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 50%;
+}
+
+section .maps div p {
+  font-size: 1.25em;
+  font-weight: bold;
+  word-wrap: break-word;
+  text-align: center;
+}

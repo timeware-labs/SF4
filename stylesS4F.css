@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.active{
+    color: red;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-top: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    gap: 5rem;
+}
+
+.linha-vertical {
+    width: 600px;
+    border: 8px solid green;
+    margin-right: 8rem;
+}
+
+.text {
+    font-size: 3.5rem;
+    display: flex;
+    width: 40rem;
+    margin-bottom: 5rem;
+    margin-left: 9rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.banner-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.img {
+    width: 45px;
+    height: 45px;
+
+}
+
+.img-woman {
+    margin-top: -0.5rem;
+    height: 40.5rem;
+    width: 55rem;
+}
+
+.body-text {
+    width: 65rem;
+    margin-left: 5rem;
+}
+
+.right{
+    margin-left: 5rem;
+}
+
+.section {
+    width: 100%;
+    height: 40rem;
+    display:flex;
+    flex-direction: row;
+}
+
+.text-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 5rem;
+}
+
+/* Header */
+.menu {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.menu .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .nav input {
+    width: 50rem;
+    height: 3.5rem;
+    border-radius: 15px;
+    border: 1px solid red;
+    padding-left: 2rem;
+    margin: 4rem;
+}
+
+.menu .nav .nav-items {
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.menu .nav .nav-items a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu .nav .nav-items a.active {
+    color: red !important;
+}
+
+/* Header Banner */
+.carousel-indicators .active {
+    background-color: black !important;
+}
+
+.carousel-indicators li {
+    border: 1px solid black !important;
+}
+
+/* Carros */
+.cars {
+    width: 100%;
+    min-height: 85rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cars > h2 {
+    font-weight: bolder; 
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.cars .cards-collection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.cars .card {
+    min-width: 35rem;
+    min-height: 35rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid;
+    box-shadow: 10px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.cars .card img {
+    width: 100%;
+    max-height: 182px;
+}
+
+.cars .card .price {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 3.5rem;
+}
+
+/* Marcas */
+.brands {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem
+}
+
+.brands h1 {
+    font-weight: bold;
+}
+
+.brands div {
+    margin-top: 10rem; 
+    width: 100%;
+}
+
+.brands div img {
+    width: 15rem;
+}
+
+/* Footer banner */
+.footer-banner {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-banner-image {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 25rem;
+    background-color: #616161;
+}
+
+.footer-item {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.size {
+    font-size: 1rem;
+}

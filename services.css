@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+section {
+  display: flex !important;
+  justify-content: center;
+
+}
+section .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+  margin-left: 0;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.container .card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container .card h1 {
+  font-size: 1.8rem;
+  color: #ff0000;
+  text-align: center;
+  font-weight: 600;
+}
+.container .card p {
+  width: 40rem;
+  text-align: center;
+  font-weight: 800;
+}
+.container .card img {
+  max-width: 40rem;
+  filter: invert(1);
+  border-radius: 5rem;
+}
+.container .card .top {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 15rem;
+}
